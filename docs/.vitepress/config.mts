@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/my_website/',
   lang: "zh-CN",
   head: [["link", { rel: "icon", href: "/images/icon.png" }]],
   title: "得闲饮茶 | 一位普通的技术爱好者",
