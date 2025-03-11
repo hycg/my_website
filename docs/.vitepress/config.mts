@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/my_website/',
+  base: "/my_website/",
   lang: "zh-CN",
-  head: [["link", { rel: "icon", href: "/images/icon.png" }]],
+  head: [["link", { rel: "icon", href: "/my_website/images/icon.png" }]],
   title: "得闲饮茶 | 一位普通的技术爱好者",
   description: "我的个人站点，记录学习的技术文档。",
   themeConfig: {
@@ -38,8 +38,8 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "主页", link: "/" },
-      { text: "文档", link: "/introduction" },
+      { text: "首页", link: "/" },
+      { text: "文档", link: "/src/introduction/introduction" },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/hycg" }],
@@ -48,10 +48,18 @@ export default defineConfig({
       {
         text: "简介",
         collapsed: false,
-        items: [{ text: "引言", link: "/introduction" }],
+        items: [
+          { text: "成长日志", link: "/src/introduction/introduction" },
+          { text: "联系我", link: "/src/introduction/contactMe" },
+        ],
       },
       {
-        text: "技术文档",
+        text: "知识宝典",
+        collapsed: false,
+        items: [{ text: "Vue通关指南1", link: "/src/interview" }],
+      },
+      {
+        text: "框架文档",
         collapsed: false,
         items: [
           {
@@ -81,8 +89,8 @@ export default defineConfig({
     ],
 
     docFooter: {
-      prev: "上一篇",
-      next: "下一篇",
+      prev: "上一页",
+      next: "下一页",
     },
     outlineTitle: "页面导航",
     lastUpdated: {
@@ -96,8 +104,8 @@ export default defineConfig({
     darkModeSwitchTitle: "切换到深色模式",
 
     footer: {
-      message: "根据 MIT 许可证发布。",
-      copyright: "版权所有 © 2015-至今 陈有护",
+      message: "基于 MIT 许可发布",
+      copyright: `版权所有 © 2019-${new Date().getFullYear()} 尤雨溪`,
     },
   },
 });

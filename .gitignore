@@ -3,6 +3,8 @@ node_modules/
 
 # 忽略 .vitepress 缓存目录
 docs/.vitepress/cache/
+# 忽略.vitepress 生成的静态文件目录
+docs/.vitepress/dist/
 
 # 忽略 .DS_Store 文件（Mac 系统）
 .DS_Store

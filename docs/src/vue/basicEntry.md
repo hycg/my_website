@@ -10,9 +10,7 @@ Vue 组件生命周期包含多个关键阶段，开发者可通过这些钩子�
 
 ```vue
 <script setup>
-import { onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onBeforeUnmount, onUnmounted, onErrorCaptured, ref } from 'vue'
-
-const userData = ref(null)
+import { onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onBeforeUnmount, onUnmounted, onErrorCaptured } from 'vue'
 
 // 生命周期钩子直接使用
 onBeforeMount(() => {
