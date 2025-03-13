@@ -15,7 +15,7 @@ hero:
       link: /src/introduction/introduction
     - theme: alt
       text: 文档
-      link: /src/introduction/introductions
+      link: /src/introduction/introduction
 
 features:
   - icon: 🌟
