@@ -5,7 +5,7 @@ export default defineConfig({
   base: "/my_website/",
   lang: "zh-CN",
   head: [["link", { rel: "icon", href: "/my_website/images/icon.png" }]],
-  title: "得闲饮茶 | 一位普通的技术爱好者",
+  title: "得闲饮茶 | 一个懂点前端代码的人",
   description: "我的个人站点，记录学习的技术文档。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -78,6 +78,9 @@ export default defineConfig({
         text: "知识宝典",
         collapsed: false,
         items: [
+          { text: "Js基础指南", link: "/src/treasureBook/jsInterview" },
+          { text: "Js面向对象", link: "/src/treasureBook/jsObjectOriented" },
+          { text: "Js网络请求", link: "/src/treasureBook/jsNetworkRequest" },
           { text: "Vue通关指南", link: "/src/treasureBook/vueInterview" },
           { text: "React通关指南", link: "/src/treasureBook/reactInterview" },
           { text: "实战项目集锦", link: "/src/treasureBook/actualProject" }
