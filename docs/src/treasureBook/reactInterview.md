@@ -19,3 +19,8 @@
 - Context API适用场景
 - Redux中间件原理
 - MobX响应式实现
+
+## 🧩 **Hooks原理剖析**
+- useState闭包陷阱与解决方案
+- useEffect依赖数组的精准控制
+- 自定义Hooks实现防抖节流复合函数

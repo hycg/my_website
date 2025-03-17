@@ -79,6 +79,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Js基础指南", link: "/src/treasureBook/jsInterview" },
+          { text: "Js面向对象", link: "/src/treasureBook/jsObjectOriented" },
+          { text: "Js网络请求", link: "/src/treasureBook/jsNetworkRequest" },
           { text: "Vue通关指南", link: "/src/treasureBook/vueInterview" },
           { text: "React通关指南", link: "/src/treasureBook/reactInterview" },
           { text: "实战项目集锦", link: "/src/treasureBook/actualProject" }

@@ -1,8 +1,6 @@
 # 📚 JavaScript 基础指南
 
-
-## 
-以下是 **JavaScript 基础指南原理解析**，覆盖变量、作用域、this、闭包、原型链等核心难点，附**易错点标注**和**扩展说明**，助你吃透原理：
+**在 JavaScript 基础指南原理解析**，覆盖变量、作用域、this、闭包、原型链等核心难点，附**易错点标注**和**扩展说明**，助你吃透原理：
 
 
 ## 📦 **一、变量与作用域**
@@ -229,6 +227,17 @@ console.log(void 0); // undefined（等价于 `undefined`，避免变量被污�
 | `0.1 + 0.2 === 0.3` | `false` | 浮点数精度问题（改用 `toFixed` 或库） |
 | `[] == false` | `true` | 隐式转换：`[]` 转数字为 `0`，`false` 转数字为 `0` |
 | `function a() {} typeof a` | `'function'` | 函数是特殊对象，`typeof` 直接返回 `'function'` |
+
+
+## 🧠 **九、V8引擎原理**
+- 隐藏类（Hidden Class）工作机制
+- 垃圾回收算法对比（新生代/老生代）
+- 字节码与即时编译（Ignition+TurboFan）
+
+
+## ⚡ **十、性能优化实战**
+- 使用Performance API进行运行时监控
+- 内存泄漏检测工具使用指南（Chrome DevTools Memory面板）
 
 
 ## 💡 **学习建议**
