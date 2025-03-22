@@ -82,8 +82,8 @@ export default defineConfig({
           { text: "Js面向对象", link: "/src/treasureBook/jsObjectOriented" },
           { text: "Js网络请求", link: "/src/treasureBook/jsNetworkRequest" },
           { text: "Vue通关指南", link: "/src/treasureBook/vueInterview" },
-          { text: "React通关指南", link: "/src/treasureBook/reactInterview" },
-          { text: "实战项目集锦", link: "/src/treasureBook/actualProject" }
+          // { text: "React通关指南", link: "/src/treasureBook/reactInterview" },
+          { text: "项目资源集锦", link: "/src/treasureBook/actualProject" }
         ]
       },
       {
@@ -97,27 +97,25 @@ export default defineConfig({
               { text: "基础入门", link: "/src/vue/basicEntry" },
               { text: "组件开发", link: "/src/vue/componentDevelopment" },
               { text: "状态管理", link: "/src/vue/stateManagement" },
-              { text: "生态与工具", link: "/src/vue/ecologyTools" },
               { text: "进阶优化", link: "/src/vue/advancedOptimization" },
-              { text: "实战项目", link: "/src/vue/actualProject" },
             ],
           },
-          {
-            text: "React",
-            collapsed: false,
-            items: [
-              { text: "基础入门", link: "/src/react/basicEntry" },
-              { text: "组件模式", link: "/src/react/componentPatterns" }
-            ]
-          },
-          {
-            text: "Angular",
-            collapsed: false,
-            items: [
-              { text: "基础入门", link: "/src/angular/basicEntry" },
-              { text: "模块系统", link: "/src/angular/moduleSystem" }
-            ]
-          }
+          // {
+          //   text: "React",
+          //   collapsed: false,
+          //   items: [
+          //     { text: "基础入门", link: "/src/react/basicEntry" },
+          //     { text: "组件模式", link: "/src/react/componentPatterns" }
+          //   ]
+          // },
+          // {
+          //   text: "Angular",
+          //   collapsed: false,
+          //   items: [
+          //     { text: "基础入门", link: "/src/angular/basicEntry" },
+          //     { text: "模块系统", link: "/src/angular/moduleSystem" }
+          //   ]
+          // }
         ],
       },
     ],
