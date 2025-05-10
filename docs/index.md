@@ -11,11 +11,11 @@ hero:
     alt: 得闲饮茶
   actions:
     - theme: brand
-      text: 快速开始
+      text: 成长路程
       link: /src/introduction/introduction
-    - theme: alt
-      text: 文档
-      link: /src/introduction/introduction
+    # - theme: alt
+    #   text: 文档
+    #   link: /src/introduction/introduction
 
 features:
   - icon: 🌟

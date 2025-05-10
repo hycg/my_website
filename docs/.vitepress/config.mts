@@ -63,61 +63,56 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "文档", link: "/src/introduction/introduction" },
+      { text: "实战项目", link: "/src/project/project" },
     ],
 
-    sidebar: [
-      {
-        text: "简介",
-        collapsed: false,
-        items: [
-          { text: "成长路程", link: "/src/introduction/introduction" },
-          { text: "联系我", link: "/src/introduction/contactMe" },
-        ],
-      },
-      {
-        text: "知识宝典",
-        collapsed: false,
-        items: [
-          { text: "Js基础指南", link: "/src/treasureBook/jsInterview" },
-          { text: "Js面向对象", link: "/src/treasureBook/jsObjectOriented" },
-          { text: "Js网络请求", link: "/src/treasureBook/jsNetworkRequest" },
-          { text: "Vue通关指南", link: "/src/treasureBook/vueInterview" },
-          // { text: "React通关指南", link: "/src/treasureBook/reactInterview" },
-          { text: "项目资源集锦", link: "/src/treasureBook/actualProject" }
-        ]
-      },
-      {
-        text: "框架文档",
-        collapsed: false,
-        items: [
-          {
-            text: "Vue",
-            collapsed: false,
-            items: [
-              { text: "基础入门", link: "/src/vue/basicEntry" },
-              { text: "组件开发", link: "/src/vue/componentDevelopment" },
-              { text: "状态管理", link: "/src/vue/stateManagement" },
-              { text: "进阶优化", link: "/src/vue/advancedOptimization" },
-            ],
-          },
-          // {
-          //   text: "React",
-          //   collapsed: false,
-          //   items: [
-          //     { text: "基础入门", link: "/src/react/basicEntry" },
-          //     { text: "组件模式", link: "/src/react/componentPatterns" }
-          //   ]
-          // },
-          // {
-          //   text: "Angular",
-          //   collapsed: false,
-          //   items: [
-          //     { text: "基础入门", link: "/src/angular/basicEntry" },
-          //     { text: "模块系统", link: "/src/angular/moduleSystem" }
-          //   ]
-          // }
-        ],
-      },
-    ],
+    sidebar: {
+      "/src/": [
+        {
+          text: "简介",
+          collapsed: false,
+          items: [
+            { text: "成长路程", link: "/src/introduction/introduction" },
+            { text: "联系我", link: "/src/introduction/contactMe" },
+          ],
+        },
+        {
+          text: "知识宝典",
+          collapsed: false,
+          items: [
+            { text: "Js基础指南", link: "/src/treasureBook/jsInterview" },
+            { text: "Js面向对象", link: "/src/treasureBook/jsObjectOriented" },
+            { text: "Js网络请求", link: "/src/treasureBook/jsNetworkRequest" },
+            { text: "Vue通关指南", link: "/src/treasureBook/vueInterview" },
+            { text: "项目资源集锦", link: "/src/treasureBook/actualProject" },
+          ],
+        },
+        {
+          text: "框架文档",
+          collapsed: false,
+          items: [
+            {
+              text: "Vue",
+              collapsed: false,
+              items: [
+                { text: "基础入门", link: "/src/vue/basicEntry" },
+                { text: "组件开发", link: "/src/vue/componentDevelopment" },
+                { text: "状态管理", link: "/src/vue/stateManagement" },
+                { text: "进阶优化", link: "/src/vue/advancedOptimization" },
+              ],
+            },
+          ],
+        },
+      ],
+      "/src/project/": [
+        {
+          text: "实战项目",
+          collapsed: false,
+          items: [
+            { text: "翻转时钟", link: "/src/project/project" },
+          ],
+        },
+      ],
+    },
   },
 });
