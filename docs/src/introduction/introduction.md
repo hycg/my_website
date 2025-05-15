@@ -8,7 +8,8 @@
 | 分类         | 工具/技术                                                            |
 |-------------|---------------------------------------------------------------------|
 | **核心语言** | HTML5、CSS3/UnoCSS、JavaScript/ES6+、TypeScript                      |
-| **主流框架** | Vue/React/Angular、Uniapp（微信小程序/APP/PC全平台适配）、<br>ECharts、Ant Design/Element-UI/Bootstrap|
+| **主流框架** | Vue、Uniapp（微信小程序/APP/PC全平台适配）<br>React、Angular、ECharts、Electron、HarmonyOS|
+| **UI框架** | Ant Design、Element-UI、Bootstrap                |
 | **工具生态** | Git/GitLab（版本控制）、Vite/Webpack/Rollup（打包）、Node.js（服务端）    |
 | **性能优化** | CDN加速、懒加载、gzip/brotli压缩（实战经验丰富）、Web Workers             |
 

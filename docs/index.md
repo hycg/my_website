@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "得闲饮茶"
-  text: "我的个人站点，细品前端工程化技术"
-  tagline: 饮好茶，吹吹水
+  text: "个人站点，一起走进前端工程师的世界"
+  tagline: 饮好茶，码人生
   image:
     src: /images/logo-large.jpg
     alt: 得闲饮茶

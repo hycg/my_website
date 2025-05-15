@@ -154,9 +154,9 @@ onMounted(() => {
 .col > .next::before {
   position: absolute;
   content: attr(data-t);
-  line-height: var(--col-height);
   text-align: center;
   height: var(--col-height);
+  line-height: 6rem;
   left: 0;
   right: 0;
 }

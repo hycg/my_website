@@ -80,6 +80,7 @@ export default defineConfig({
           text: "知识宝典",
           collapsed: false,
           items: [
+            { text: "前端常用知识点", link: "/src/treasureBook/topic" },
             { text: "Js基础指南", link: "/src/treasureBook/jsInterview" },
             { text: "Js面向对象", link: "/src/treasureBook/jsObjectOriented" },
             { text: "Js网络请求", link: "/src/treasureBook/jsNetworkRequest" },
